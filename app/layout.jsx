@@ -12,9 +12,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Vastu Shastra Consultant | Transform Your Space, Transform Your Life",
+  title: "Vastu Energy Healing | Transform Your Space, Transform Your Life",
   description:
-    "Expert Vastu Shastra consultation for homes, offices, and commercial spaces. Harness the power of ancient Indian architectural science for harmony, prosperity, and well-being.",
+    "Dr. Anil Watts Expert Vastu Shastra consultation for homes, offices, and commercial spaces. Harness the power of ancient Indian architectural science for harmony, prosperity, and well-being.",
 };
 
 export const viewport = {

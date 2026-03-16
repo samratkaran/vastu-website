@@ -38,17 +38,15 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-cream mb-4 text-balance">
-          Pandit Arun Shastri
+          Dr. Anil Watts
         </h1>
 
         <p className="text-lg md:text-xl text-cream/80 mb-3 font-medium">
-          Vastu Shastra Consultant & Spiritual Guide
+          Senior Vastu, Energy & Paranormal Consultant 
         </p>
 
         <p className="text-base text-cream/60 max-w-xl mx-auto mb-10 leading-relaxed">
-          With over 25 years of experience in Vastu Shastra, I help transform
-          your living and working spaces to attract positive energy, prosperity,
-          and harmony into your life.
+        Energy and Paranormal Consultant with more than 21 years of professional experience in Vastu Shastra, earth energy sciences, geopathic stress correction and EMF analysis. He is known for his scientific, research-based and non-destructive approach to Vastu and energy balancing.
         </p>
 
         <button
