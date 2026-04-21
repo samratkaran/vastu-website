@@ -27,7 +27,7 @@ export default function HeroSection() {
         <div className="mb-8 flex justify-center">
           <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gold shadow-xl">
             <Image
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Vastu Consultant Profile"
               fill
               className="object-cover"

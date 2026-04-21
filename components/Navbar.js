@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -46,8 +47,16 @@ export default function Navbar() {
             className={`text-xl font-serif font-bold tracking-wide transition-colors duration-300 ${
               isScrolled ? "text-foreground" : "text-primary-foreground"
             }`}
+
+            
           >
-            VastuVidya
+        <Image
+      src="/logo.png"
+      alt="Vastu Logo"
+      width={130}
+      height={50}
+      // style={{marginBottom:"-1rem"}}
+    />
           </span>
         </Link>
 

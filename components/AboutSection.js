@@ -10,7 +10,7 @@ export default function AboutSection() {
           <div className="w-full lg:w-1/2">
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/about.jpg"
+                src="/images/about.png"
                 alt="Vastu Consultant studying architectural plans"
                 fill
                 className="object-cover"
@@ -28,11 +28,7 @@ export default function AboutSection() {
               Ancient Wisdom for Modern Living
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Pandit Arun Shastri is one of India&apos;s most respected Vastu Shastra
-              consultants with over 25 years of experience. Having studied under
-              renowned scholars and extensively researched ancient Vedic texts, he
-              brings a unique blend of traditional wisdom and modern practicality
-              to every consultation.
+              Dr. Watts’ research highlights the impact of Geopathic Stress and disturbed earth energies on health, mental balance, productivity and prosperity. His proven techniques help neutralize these negative influences and create balanced, harmonious environments.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               With over 5,000 successful consultations across residential,

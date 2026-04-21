@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="w-full lg:w-1/2">
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/about.jpg"
+                  src="/images/about.png"
                   alt="Pandit Arun Shastri - Vastu Consultant"
                   fill
                   className="object-cover"
