@@ -103,16 +103,16 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone size={16} className="text-gold-light mt-0.5 shrink-0" />
-                <span className="text-sm text-cream/70">+91 99999 99999</span>
+                <span className="text-sm text-cream/70">+91 9971427777</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={16} className="text-gold-light mt-0.5 shrink-0" />
-                <span className="text-sm text-cream/70">info@vastuvidya.com</span>
+                <span className="text-sm text-cream/70">anilwatts777@gmail.com </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-gold-light mt-0.5 shrink-0" />
                 <span className="text-sm text-cream/70">
-                  New Delhi, India
+                  Gurugram, India
                 </span>
               </li>
             </ul>
@@ -121,7 +121,7 @@ export default function Footer() {
 
         <div className="border-t border-brown-light mt-12 pt-8 text-center">
           <p className="text-sm text-cream/50">
-            &copy; {new Date().getFullYear()} VastuVidya. All rights reserved.
+            &copy; {new Date().getFullYear()} Vastu Energy Healing. All rights reserved.
           </p>
         </div>
       </div>

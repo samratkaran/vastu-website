@@ -4,7 +4,7 @@ import GetInTouchSection from "@/components/GetInTouchSection";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const metadata = {
-  title: "Contact | VastuVidya - Get In Touch",
+  title: "Contact | Vastu Energy Healing - Get In Touch",
   description:
     "Contact us for Vastu Shastra consultation. Reach out via phone, email, or fill out our contact form.",
 };
@@ -38,7 +38,7 @@ export default function ContactPage() {
               <Phone size={20} className="text-primary" />
             </div>
             <h3 className="font-semibold text-foreground text-sm mb-1">Phone</h3>
-            <p className="text-sm text-muted-foreground">+91 99999 99999</p>
+            <p className="text-sm text-muted-foreground">+91 9971427777</p>
           </div>
 
           <div className="bg-card rounded-lg p-6 shadow-sm border border-border text-center">
@@ -46,7 +46,7 @@ export default function ContactPage() {
               <Mail size={20} className="text-primary" />
             </div>
             <h3 className="font-semibold text-foreground text-sm mb-1">Email</h3>
-            <p className="text-sm text-muted-foreground">info@vastuvidya.com</p>
+            <p className="text-sm text-muted-foreground">anilwatts777@gmail.com</p>
           </div>
 
           <div className="bg-card rounded-lg p-6 shadow-sm border border-border text-center">
@@ -54,7 +54,7 @@ export default function ContactPage() {
               <MapPin size={20} className="text-primary" />
             </div>
             <h3 className="font-semibold text-foreground text-sm mb-1">Location</h3>
-            <p className="text-sm text-muted-foreground">New Delhi, India</p>
+            <p className="text-sm text-muted-foreground">Gurugram, India</p>
           </div>
 
           <div className="bg-card rounded-lg p-6 shadow-sm border border-border text-center">
@@ -62,7 +62,7 @@ export default function ContactPage() {
               <Clock size={20} className="text-primary" />
             </div>
             <h3 className="font-semibold text-foreground text-sm mb-1">Hours</h3>
-            <p className="text-sm text-muted-foreground">Mon - Sat: 9AM - 7PM</p>
+            <p className="text-sm text-muted-foreground">Mon - Sun: 9AM - 9PM</p>
           </div>
         </div>
       </section>

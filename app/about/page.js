@@ -47,7 +47,7 @@ export default function AboutPage() {
             {/* Text */}
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl font-serif font-bold text-foreground">
-                Pandit Arun Shastri
+                Dr. Anil Watts
               </h2>
               <p className="text-muted-foreground leading-relaxed">
              
@@ -113,17 +113,17 @@ Over the years, he has successfully completed 7,000+ residential, commercial, in
 
     <div className="grid grid-cols-3 gap-6 pt-5 mt-5 ">
                 <div className="text-center">
-                  <p className="text-6xl font-serif font-bold text-primary">25+</p>
+                  <p className="text-6xl font-serif font-bold text-primary">21+</p>
                   <p className="pt-1 text-muted-foreground">
                     Years Experience
                   </p>
                 </div>
                 <div className="text-center">
-                  <p className="text-6xl font-serif font-bold text-primary">5000+</p>
+                  <p className="text-6xl font-serif font-bold text-primary">3000+</p>
                   <p className="pt-1 text-muted-foreground">Consultations</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-6xl font-serif font-bold text-primary">100+</p>
+                  <p className="text-6xl font-serif font-bold text-primary">50+</p>
                   <p className="pt-1 text-muted-foreground">Cities Covered</p>
                 </div>
               </div>
