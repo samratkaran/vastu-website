@@ -42,19 +42,48 @@ export default function ReusableForm({ title = "Get In Touch" }) {
     }
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
-    console.log("Form submitted:", formData);
-    setSubmitted(true);
-    setFormData(initialState);
-    setErrors({});
-    setTimeout(() => setSubmitted(false), 3000);
+async function handleSubmit(e) {
+  e.preventDefault();
+
+  const validationErrors = validate();
+
+  if (Object.keys(validationErrors).length > 0) {
+    setErrors(validationErrors);
+    return;
   }
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+      body: JSON.stringify(formData),
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setSubmitted(true);
+
+      setFormData(initialState);
+
+      setErrors({});
+
+      setTimeout(() => {
+        setSubmitted(false);
+      }, 3000);
+    } else {
+      alert("Failed to send message");
+    }
+  } catch (error) {
+    console.log(error);
+
+    alert("Something went wrong");
+  }
+}
 
   const inputClass =
     "w-full px-4 py-3 border border-border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-colors";
